@@ -1,0 +1,158 @@
+html,body{
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+
+
+header {
+    background: url("images/bg-header-desktop.png") ;
+    background-size: 100% 100%;
+    height: 250px;
+   
+}
+iframe{
+    background-repeat: no-repeat;
+    border: none;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align : center;
+    top: 50px;
+    width: 150px;
+}
+.discription-heading{
+    font-weight:  600;
+    font-size: 2.0rem;
+}
+.discription-heading-text{
+    line-height: 1.5em;
+    color:  hsl(201, 11%, 66%);
+}
+.discription-buttons{
+    line-height: 5em;
+    
+}
+#download-buttons{
+    
+    width: 12.9em;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+.btnone {
+    
+  
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 1px 3px hsl(174, 84%, 15%) ;
+
+}
+.btntwo{
+
+  
+   background-color: hsl(233, 100%, 69%);
+   box-shadow: 1px 3px hsl(233, 65%, 24%);
+} 
+.content-discription-heading{
+    font-weight:  600;
+
+}
+.content-discription-text{
+   
+    color:  hsl(201, 11%, 66%);
+
+}
+.image-discription-headings{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.image-discription-contents{
+    color:  hsl(201, 11%, 66%);
+
+}
+.mobile-image{
+    margin-left: 100px;
+   
+}
+.blacklist-icon, .text-icon, .eye-icon{
+    width: 50%;
+    height: 50%;
+    margin-left: 150px;
+    
+}
+.footer-bs .footer-contact  a, .footer-bs .footer-privacy  a, .footer-bs .footer-install  a, .footer-bs .footer-socialmedia-links  a{
+    color: hsl(210, 10%, 33%);
+     
+}
+.footer-bs .footer-contact  a:hover, .footer-bs .footer-privacy  a:hover, .footer-bs .footer-install  a:hover, .footer-bs .footer-socialmedia-links  a:hover{
+    color:rgba(0, 0, 0, 0.6);
+     text-decoration:none;
+}
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .content-image{
+
+         width: 80%;
+         margin-left: 30px;
+
+     
+        
+     }
+     .image-discription{
+         text-align: center;
+     }
+     .mobile-image{
+        width: 90%;
+        margin-left: 1.5em;
+       
+    }
+    .industry-images{
+      margin-left: 25%;
+  
+    
+    }
+  
+    .footer-bs{
+        background-color: hsl(0, 0%, 57%) 	;
+        margin-top: 70px;
+       
+         
+     }
+     .footer-bs .footer-brand{
+        size: 50%;
+       margin-bottom: 4em;
+    }
+    .footer-bs .footer-contact, .footer-bs .footer-privacy, .footer-bs .footer-install, .footer-bs .footer-socialmedia-links{
+        text-align: center;
+    }
+}  
+    
+
+
+@media (min-width: 1200px) { 
+    .content-image{
+
+        margin-left: -240px;
+        
+     }
+     .footer-bs{
+        background-color:   hsl(201, 11%, 66%)	;
+        margin-top: 100px;
+       
+         
+     }
+     .footer-bs .footer-brand{
+        size: 50%;
+       margin-bottom: 3em;
+    }
+    .footer-bs .footer-contact, .footer-bs .footer-privacy, .footer-bs .footer-install, .footer-bs .footer-socialmedia-links   {
+       margin-top: 3em;
+       
+    }
+    
+    
+     
+ }
